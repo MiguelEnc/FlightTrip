@@ -1,9 +1,183 @@
 <!DOCTYPE html>
-<html>
+<html class="full" lang="en">
     <head>
-    
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="An intelligent flights organizer">
+        <meta name="author" content="FlightTrip">
+
+        <title>Flight Trip</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="/vendors/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="/resources/css/app.css" rel="stylesheet">
+        
+        <link rel="stylesheet" href="/vendors/jquery-ui-1.12.1.custom/jquery-ui.css">    
+        
+
     </head>
+
     <body>
-    
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Flight Trip</a>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
+
+        <!-- Page Content -->
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-10 col-md-offset-1 selection-body">
+                    <form>
+                        <div class="row">
+                            
+                            <!-- First Column -->
+                            <div class="form-group col-md-2" id="first-column">
+                                <br/>
+                                <label for="departureDate">Fecha Salida</label>
+                                <input type="text" class="form-control" id="datepicker">
+                                <br/>
+                                <div>
+                                    <label>Adultos</label>
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">-</button>
+                                    <button type="button" class="btn btn-default">1</button>
+                                    <button type="button" class="btn btn-default">+</button>
+                                </div>
+                                </div>
+                                <br/>
+                                <label>Ninos</label>
+                                <div class="btn-group" role="group" aria-label="...">
+                                    <button type="button" class="btn btn-default">-</button>
+                                    <button type="button" class="btn btn-default">0</button>
+                                    <button type="button" class="btn btn-default">+</button>
+                                </div>
+                            </div>
+                            
+                            <!-- Second Column -->
+                            <div class="col-md-4 form-group">
+                                <br/>
+                                <label for="departureCity">Ciudad de Salida</label>
+                                <input type="text" class="form-control" id="departureCity" placeholder="Santo Domingo (SDQ)">
+                                <br/>
+                                <div class="radio">
+                                    <label><input type="radio" name="claseRadios" id="claseRadios1" value="economica"> Clase Económica</label>
+                                    <br/>
+                                    <label><input type="radio" name="claseRadios" id="claseRadios2" value="ejecutiva"> Clase Ejecutiva</label>
+                                    <br/>
+                                    <label><input type="radio" name="claseRadios" id="claseRadios3" value="primera"> Primera Clase</label>
+                                </div>
+                            </div>
+                            
+                            <!-- Third Column -->
+                            <div class="col-md-4 form-group">
+                                <br/>
+                                <label for="arrivalCity">Destinos</label>
+                                <input type="text" class="form-control" id="arrivalCity" placeholder="John F. Kennedy (JFK)">
+                                <br/>
+                                <input type="text" class="form-control" id="arrivalCity" placeholder="John F. Kennedy (JFK)">
+                                <br/>
+                                <input type="text" class="form-control" id="arrivalCity" placeholder="John F. Kennedy (JFK)">
+                                <br/>
+                                <input type="text" class="form-control" id="arrivalCity" placeholder="John F. Kennedy (JFK)">
+                            </div>
+                            
+                            <!-- Forth Column -->
+                            <div class="col-md-1 form-group">
+                                <br/>
+                                <label for="duration">Duración</label>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Dias<span class="caret"></span></button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">4</a></li>
+                                    </ul>
+                                </div>
+                                <br/>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Dias<span class="caret"></span></button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">4</a></li>
+                                    </ul>
+                                </div>
+                                <br/>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Dias<span class="caret"></span></button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">4</a></li>
+                                    </ul>
+                                </div>
+                                <br/>
+                                <div class="dropdown">
+                                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">Dias<span class="caret"></span></button>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">1</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">2</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">3</a></li>
+                                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">4</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="button-panel">
+                                <button type="button" class="btn btn-primary btn-lg">Buscar</button>
+                                <img class="ajax-loader" src="http://www.professionalaudiologicalservices.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Buscando ..." style="visibility: hidden;" />
+                            </div>
+                        </div>
+                    </form>
+                    
+                    
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+
+        <!-- Angular JS -->
+        <script src="vendors/js/angular.min.js"></script>
+
+        
+        
+        <!-- JQuery -->
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="vendors/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+        <script src="vendors/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+        
+        <!-- Bootstrap Core JavaScript -->
+        <script src="vendors/js/bootstrap.min.js"></script>
+        
+        <script>
+          $( function() {
+              $( "#datepicker" ).datepicker();
+          });
+        </script>
+        
     </body>
+
 </html>
