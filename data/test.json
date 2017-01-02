@@ -1,0 +1,1259 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "0t2HtM6ifshKiHb0c0Piwa",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "JFK",
+     "city": "NYC",
+     "name": "New York John F Kennedy International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SDQ",
+     "city": "SDQ",
+     "name": "Santo Domingo Las Americas International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "NYC",
+     "name": "New York"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SDQ",
+     "name": "Santo Domingo"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "320",
+     "name": "Airbus A320"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "321",
+     "name": "Airbus A321"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "VB_001",
+     "name": "Dominican Republic Airport Infrastructure Fee Departure"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XY",
+     "name": "US Immigration Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "VB_002",
+     "name": "Dominican Republic Airport Infrastructure Fee Arrival"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "DO_001",
+     "name": "Dominican Republic Transportation Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AA_001",
+     "name": "Dominican Republic Airport Departure Tax International"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_002",
+     "name": "US International Arrival Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XA",
+     "name": "USDA APHIS Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "UX_002",
+     "name": "Dominican Republic Airport Authority Fee Arrivals"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "UX_001",
+     "name": "Dominican Republic Airport Authority Fee Departures"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YC",
+     "name": "US Customs Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "B6",
+     "name": "Jetblue Airways Corporation"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "DOP20287",
+    "id": "ZbvbJGtP5UKNWyA5L6h8SE003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 230,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 230,
+        "flight": {
+         "carrier": "B6",
+         "number": "110"
+        },
+        "id": "GYNSk3JEaj2T0wR5",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LbnD-Bo9nDe8BJD9",
+          "aircraft": "321",
+          "arrivalTime": "2017-01-19T02:27-05:00",
+          "departureTime": "2017-01-18T23:37-04:00",
+          "origin": "SDQ",
+          "destination": "JFK",
+          "destinationTerminal": "4",
+          "duration": 230,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 231,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 231,
+        "flight": {
+         "carrier": "B6",
+         "number": "309"
+        },
+        "id": "GIJPasnMOwC+0wMF",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LYXOzcrJkj8e3D0+",
+          "aircraft": "321",
+          "arrivalTime": "2017-01-25T22:21-04:00",
+          "departureTime": "2017-01-25T17:30-05:00",
+          "origin": "JFK",
+          "destination": "SDQ",
+          "originTerminal": "5",
+          "duration": 231,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "carrier": "B6",
+        "origin": "SDQ",
+        "destination": "NYC",
+        "basisCode": "SHE4TUN5",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "SDQ",
+        "basisCode": "PL2AUEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "segmentId": "GYNSk3JEaj2T0wR5"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "segmentId": "GIJPasnMOwC+0wMF"
+       }
+      ],
+      "baseFareTotal": "USD245.00",
+      "saleFareTotal": "DOP11452",
+      "saleTaxTotal": "DOP8832",
+      "saleTotal": "DOP20284",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DO",
+        "country": "DO",
+        "salePrice": "DOP2062"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AA_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AA",
+        "country": "DO",
+        "salePrice": "DOP935"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "DOP185"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "DOP328"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "DOP257"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_002",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "DOP262"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "DOP211"
+       }
+      ],
+      "fareCalculation": "SDQ B6 NYC 155.00SHE4TUN5 B6 SDQ 90.00PL2AUEN NUC 245.00 END ROE 1.00 FARE USD 245.00 EQU DOP 11452 XT 935AA 2062DO 1404UX 1524VB 257YC 328XY 185XA 1664US 262AY 211XF JFK4.50",
+      "latestTicketingTime": "2016-12-31T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "DOP20284",
+    "id": "ZbvbJGtP5UKNWyA5L6h8SE001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 236,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 236,
+        "flight": {
+         "carrier": "B6",
+         "number": "510"
+        },
+        "id": "GKcRbDU9Gz2mDnXP",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L7sRcsxGcvkPmW46",
+          "aircraft": "321",
+          "arrivalTime": "2017-01-18T19:40-05:00",
+          "departureTime": "2017-01-18T16:44-04:00",
+          "origin": "SDQ",
+          "destination": "JFK",
+          "destinationTerminal": "5",
+          "duration": 236,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 231,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 231,
+        "flight": {
+         "carrier": "B6",
+         "number": "309"
+        },
+        "id": "GIJPasnMOwC+0wMF",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LYXOzcrJkj8e3D0+",
+          "aircraft": "321",
+          "arrivalTime": "2017-01-25T22:21-04:00",
+          "departureTime": "2017-01-25T17:30-05:00",
+          "origin": "JFK",
+          "destination": "SDQ",
+          "originTerminal": "5",
+          "duration": 231,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "carrier": "B6",
+        "origin": "SDQ",
+        "destination": "NYC",
+        "basisCode": "SHE4TUN5",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "SDQ",
+        "basisCode": "PL2AUEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "segmentId": "GKcRbDU9Gz2mDnXP"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "segmentId": "GIJPasnMOwC+0wMF"
+       }
+      ],
+      "baseFareTotal": "USD245.00",
+      "saleFareTotal": "DOP11452",
+      "saleTaxTotal": "DOP8832",
+      "saleTotal": "DOP20284",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DO",
+        "country": "DO",
+        "salePrice": "DOP2062"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AA_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AA",
+        "country": "DO",
+        "salePrice": "DOP935"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "DOP185"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "DOP328"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "DOP257"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_002",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "DOP262"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "DOP211"
+       }
+      ],
+      "fareCalculation": "SDQ B6 NYC 155.00SHE4TUN5 B6 SDQ 90.00PL2AUEN NUC 245.00 END ROE 1.00 FARE USD 245.00 EQU DOP 11452 XT 935AA 2062DO 1404UX 1524VB 257YC 328XY 185XA 1664US 262AY 211XF JFK4.50",
+      "latestTicketingTime": "2016-12-31T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "DOP20284",
+    "id": "ZbvbJGtP5UKNWyA5L6h8SE004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 230,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 230,
+        "flight": {
+         "carrier": "B6",
+         "number": "110"
+        },
+        "id": "GYNSk3JEaj2T0wR5",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LbnD-Bo9nDe8BJD9",
+          "aircraft": "321",
+          "arrivalTime": "2017-01-19T02:27-05:00",
+          "departureTime": "2017-01-18T23:37-04:00",
+          "origin": "SDQ",
+          "destination": "JFK",
+          "destinationTerminal": "4",
+          "duration": 230,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 232,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 232,
+        "flight": {
+         "carrier": "B6",
+         "number": "109"
+        },
+        "id": "Gi+3RX8+9heHHvXf",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LVUYuBv3CTR5zs6u",
+          "aircraft": "321",
+          "arrivalTime": "2017-01-26T01:24-04:00",
+          "departureTime": "2017-01-25T20:32-05:00",
+          "origin": "JFK",
+          "destination": "SDQ",
+          "originTerminal": "5",
+          "duration": 232,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "carrier": "B6",
+        "origin": "SDQ",
+        "destination": "NYC",
+        "basisCode": "SHE4TUN5",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "SDQ",
+        "basisCode": "PL2AUEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "segmentId": "GYNSk3JEaj2T0wR5"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "segmentId": "Gi+3RX8+9heHHvXf"
+       }
+      ],
+      "baseFareTotal": "USD245.00",
+      "saleFareTotal": "DOP11452",
+      "saleTaxTotal": "DOP8832",
+      "saleTotal": "DOP20284",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DO",
+        "country": "DO",
+        "salePrice": "DOP2062"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AA_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AA",
+        "country": "DO",
+        "salePrice": "DOP935"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "DOP185"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "DOP328"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "DOP257"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_002",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "DOP262"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "DOP211"
+       }
+      ],
+      "fareCalculation": "SDQ B6 NYC 155.00SHE4TUN5 B6 SDQ 90.00PL2AUEN NUC 245.00 END ROE 1.00 FARE USD 245.00 EQU DOP 11452 XT 935AA 2062DO 1404UX 1524VB 257YC 328XY 185XA 1664US 262AY 211XF JFK4.50",
+      "latestTicketingTime": "2016-12-31T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "DOP20284",
+    "id": "ZbvbJGtP5UKNWyA5L6h8SE005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 234,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 234,
+        "flight": {
+         "carrier": "B6",
+         "number": "710"
+        },
+        "id": "GquCvQofsb5SiESB",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LHAFNmySN-7C0mcI",
+          "aircraft": "320",
+          "arrivalTime": "2017-01-18T05:20-05:00",
+          "departureTime": "2017-01-18T02:26-04:00",
+          "origin": "SDQ",
+          "destination": "JFK",
+          "destinationTerminal": "5",
+          "duration": 234,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 231,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 231,
+        "flight": {
+         "carrier": "B6",
+         "number": "309"
+        },
+        "id": "GIJPasnMOwC+0wMF",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LYXOzcrJkj8e3D0+",
+          "aircraft": "321",
+          "arrivalTime": "2017-01-25T22:21-04:00",
+          "departureTime": "2017-01-25T17:30-05:00",
+          "origin": "JFK",
+          "destination": "SDQ",
+          "originTerminal": "5",
+          "duration": 231,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "carrier": "B6",
+        "origin": "SDQ",
+        "destination": "NYC",
+        "basisCode": "SHE4TUN5",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "SDQ",
+        "basisCode": "PL2AUEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "segmentId": "GIJPasnMOwC+0wMF"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "segmentId": "GquCvQofsb5SiESB"
+       }
+      ],
+      "baseFareTotal": "USD245.00",
+      "saleFareTotal": "DOP11452",
+      "saleTaxTotal": "DOP8832",
+      "saleTotal": "DOP20284",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DO",
+        "country": "DO",
+        "salePrice": "DOP2062"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AA_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AA",
+        "country": "DO",
+        "salePrice": "DOP935"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "DOP185"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "DOP328"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "DOP257"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_002",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "DOP262"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "DOP211"
+       }
+      ],
+      "fareCalculation": "SDQ B6 NYC 155.00SHE4TUN5 B6 SDQ 90.00PL2AUEN NUC 245.00 END ROE 1.00 FARE USD 245.00 EQU DOP 11452 XT 935AA 2062DO 1404UX 1524VB 257YC 328XY 185XA 1664US 262AY 211XF JFK4.50",
+      "latestTicketingTime": "2016-12-31T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "DOP20284",
+    "id": "ZbvbJGtP5UKNWyA5L6h8SE002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 236,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 236,
+        "flight": {
+         "carrier": "B6",
+         "number": "510"
+        },
+        "id": "GKcRbDU9Gz2mDnXP",
+        "cabin": "COACH",
+        "bookingCode": "S",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L7sRcsxGcvkPmW46",
+          "aircraft": "321",
+          "arrivalTime": "2017-01-18T19:40-05:00",
+          "departureTime": "2017-01-18T16:44-04:00",
+          "origin": "SDQ",
+          "destination": "JFK",
+          "destinationTerminal": "5",
+          "duration": 236,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 232,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 232,
+        "flight": {
+         "carrier": "B6",
+         "number": "109"
+        },
+        "id": "Gi+3RX8+9heHHvXf",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LVUYuBv3CTR5zs6u",
+          "aircraft": "321",
+          "arrivalTime": "2017-01-26T01:24-04:00",
+          "departureTime": "2017-01-25T20:32-05:00",
+          "origin": "JFK",
+          "destination": "SDQ",
+          "originTerminal": "5",
+          "duration": 232,
+          "mileage": 1553,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "carrier": "B6",
+        "origin": "SDQ",
+        "destination": "NYC",
+        "basisCode": "SHE4TUN5",
+        "private": true
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "carrier": "B6",
+        "origin": "NYC",
+        "destination": "SDQ",
+        "basisCode": "PL2AUEN"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AL4ZOdUiAFUk0jFXBbFVEyOp5kNdPm2kGIj1SCvZWmzQhoadSrWxIf2+wd8UhmYD61uR6ds9k1WxZ5/p5IwmhKsdw0kjlciJMSXejR3zAKa4dbSFuOsXdzcfEAn7Xant5Pqn4a+8kHhQzv/",
+        "segmentId": "GKcRbDU9Gz2mDnXP"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A4d/tfEIV6Yqd+sfiz8tC27WJBlTCR431SnXi8JfBuvw",
+        "segmentId": "Gi+3RX8+9heHHvXf"
+       }
+      ],
+      "baseFareTotal": "USD245.00",
+      "saleFareTotal": "DOP11452",
+      "saleTaxTotal": "DOP8832",
+      "saleTotal": "DOP20284",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "DO_001",
+        "chargeType": "GOVERNMENT",
+        "code": "DO",
+        "country": "DO",
+        "salePrice": "DOP2062"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_001",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AA_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AA",
+        "country": "DO",
+        "salePrice": "DOP935"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "DOP185"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "DOP328"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "DOP257"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UX_002",
+        "chargeType": "GOVERNMENT",
+        "code": "UX",
+        "country": "DO",
+        "salePrice": "DOP702"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "VB_002",
+        "chargeType": "GOVERNMENT",
+        "code": "VB",
+        "country": "DO",
+        "salePrice": "DOP762"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "DOP832"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "DOP262"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "DOP211"
+       }
+      ],
+      "fareCalculation": "SDQ B6 NYC 155.00SHE4TUN5 B6 SDQ 90.00PL2AUEN NUC 245.00 END ROE 1.00 FARE USD 245.00 EQU DOP 11452 XT 935AA 2062DO 1404UX 1524VB 257YC 328XY 185XA 1664US 262AY 211XF JFK4.50",
+      "latestTicketingTime": "2016-12-31T23:59-05:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
