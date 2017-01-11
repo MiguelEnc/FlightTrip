@@ -1,18 +1,5 @@
   
-          $.getJSON( "data/test.json", function( data ) {
-        
-           var tr;
-    for (var i = 0; i <  data.trips.tripOption.length; i++) {
-        tr = $('<tr/>');
-        tr.append("<td> <div style='height: 50px; overflow:auto;'>" +data.trips.tripOption[i].slice[0].segment[0].flight.carrier + "  </div></td>");
-        tr.append("<td> <div style='height: 50px; overflow:auto;'>" + data.trips.tripOption[i].saleTotal+ "</div></td>");
-        tr.append("<td> <div style='height: 50px; overflow:auto;'>In progress</div></td>");
-        tr.append("<td><div style='height: 50px; overflow:auto;'><input type='radio' name='flight' value="+i+"></div></td>");
-        $('table').append(tr);
-        
-    }
-    
-          });
+         
           /**
  * Created by Kupletsky Sergey on 05.11.14.
  *
@@ -22,7 +9,17 @@
  */
 
 $(document).ready(function() {
-
+var data=JSON.parse(sessionStorage.getItem('rutas'));
+var costo=Cookies.get("costos");
+           var tr;
+    for (var i = 0; i <  data.length; i++) {
+        tr = $('<tr/>');
+        tr.append("<td> <div style='height: 50px; overflow:auto;'>" +data[i].trips.tripOption[0].slice[0].segment[0].flight.carrier + "  </div></td>");
+        tr.append("<td> <div style='height: 50px; overflow:auto;'>" + data[i].trips.tripOption[0].saleTotal+ "</div></td>");
+        tr.append("<td> <div style='height: 50px; overflow:auto;'>In progress</div></td>");
+        tr.append("<td><div style='height: 50px; overflow:auto;'><input type='radio' name='flight' value="+i+"></div></td>");
+        $('table').append(tr);
+    }
     var table = $('#table');
 
     // Table bordered

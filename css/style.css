@@ -17,8 +17,8 @@ body {
 
 /* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
 
-html {
-    background: url('http://www.pixelstalk.net/wp-content/uploads/2016/10/Cloud-birds-wallpaper-desktop-screensaver.jpg') no-repeat center center fixed;
+.full {
+    background: url(../img/beach02.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
