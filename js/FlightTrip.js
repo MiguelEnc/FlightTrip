@@ -5,20 +5,20 @@ var fechaPartida = new Date();
 // Variables que usaremos para guiarnos durante el algoritmo.
 var ciudadActual = ciudadPartida;
 var fechaActual = fechaPartida;
-
+var ciudadPartidaOriginal;
 var ruta = []; //Lista a devolver.
 var costoTotal = 0; //Costo total a devolver.
 
  //Lista de ciudades a visitar.
 var flights = []; //Requests temporales a analizar.
-var adultos=0;
-var ninos=0;
+var adultos = 0;
+var ninos = 0;
 var ciudades = [];
 //Recibimos las ciudades a visitar con su duracion. Tras confirmar, las enlistamos y vamos haciendo los requests.
-function myFunction()
-{
+function myFunction() {
     
 ciudadPartida=document.getElementById("departureCity").value;
+ciudadPartidaOriginal=document.getElementById("departureCity").value;
 fechaPartida=document.getElementById("datepicker").value;
 adultos=document.getElementById("adulto").value;
 ciudadActual = ciudadPartida;
@@ -64,7 +64,10 @@ while (ciudades.length > 0) {
         if (minimo > sale) {
             minimo = sale;
             ubicacion = i;
-            nombre = flights[i].trips.tripOption[0].slice[0].segment[0].leg[0].destination;
+            var maxLeg = flights[i].trips.tripOption[0].slice[0].segment[0].leg.length;
+            nombre = flights[i].trips.tripOption[0].slice[0].segment[0].leg[maxLeg - 1].destination;
+
+//            nombre = flights[i].trips.tripOption[0].slice[0].segment[0].leg[0].destination;
         }
     }
     //Agregamos la informacion del viaje mas corto a la lista a retornar.
@@ -94,6 +97,17 @@ while (ciudades.length > 0) {
     flights = [];
 }
 
+    //volviendo a la ciudad de origen
+    if (ciudades.length === 0) {
+        request(ciudadActual, ciudadPartidaOriginal, fechaActual);
+        ruta.push(flights[flights.length - 1]);
+        var costo = flights[flights.length - 1].trips.tripOption[0].saleTotal;
+        costo = costo.replace(/[^0-9\.]+/g, "");
+        costo = parseInt(costo);
+        costoTotal += costo;
+    }
+    
+    
 //Retornamos los detalles de los vuelos elegidos y el costo total.
 
 console.log(ruta);
@@ -127,11 +141,12 @@ function request(ciudadDesde, ciudadHasta, fecha) {
         "refundable": false
       }
     };
-    var key = "AIzaSyDxZmWNE01gdMq8T_h9yirnb0IjJ4bF0E0";
+    var keyManuel = "AIzaSyDxZmWNE01gdMq8T_h9yirnb0IjJ4bF0E0";
+    var keyMiguel = "AIzaSyBrDLPj6wKGupgOJL4Rnu4VSUwFLSgemrM";
     $.ajax({
      type: "POST",
      //Set up your request URL and API Key.
-     url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyDxZmWNE01gdMq8T_h9yirnb0IjJ4bF0E0", 
+     url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=" + keyManuel, 
      contentType: 'application/json', // Set Content-type: application/json
      dataType: 'json',
      async: false,
