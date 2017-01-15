@@ -43,12 +43,13 @@ var i=1;
         
         
     }
-var minimo = 999999999999999999999999999999999;
+
 var ubicacion;
 var nombre;
 //Determinar cual de las ciudades a visitar posee el viaje mas corto, elegirlo, agregarlo a la lista y reiterar.
 while (ciudades.length > 0) {
     //Obtenemos los posibles viajes desde la ciudad actual hasta las ciudades restantes.
+    var minimo = 999999999999999999999999999999999;
     for (var i = 0; i < ciudades.length; i++) {
         request(ciudadActual, ciudades[i].nombre, fechaActual); //no es necesario la 1ra vez.
         //ciudades[i].vuelo = request(ciudadActual, ciudades[i].nombre, fechaActual);
@@ -64,8 +65,8 @@ while (ciudades.length > 0) {
         if (minimo > sale) {
             minimo = sale;
             ubicacion = i;
-            var maxLeg = flights[i].trips.tripOption[0].slice[0].segment[0].leg.length;
-            nombre = flights[i].trips.tripOption[0].slice[0].segment[0].leg[maxLeg - 1].destination;
+            var maxSegment = flights[i].trips.tripOption[0].slice[0].segment.length;
+            nombre = flights[i].trips.tripOption[0].slice[0].segment[maxSegment-1].leg[0].destination;
 
 //            nombre = flights[i].trips.tripOption[0].slice[0].segment[0].leg[0].destination;
         }
@@ -143,10 +144,11 @@ function request(ciudadDesde, ciudadHasta, fecha) {
     };
     var keyManuel = "AIzaSyDxZmWNE01gdMq8T_h9yirnb0IjJ4bF0E0";
     var keyMiguel = "AIzaSyBrDLPj6wKGupgOJL4Rnu4VSUwFLSgemrM";
+    var keyManuel2="AIzaSyClJyDmz-rjAhmp88AoqR5T6lb4rJepsSk";
     $.ajax({
      type: "POST",
      //Set up your request URL and API Key.
-     url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=" + keyManuel, 
+     url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=" + keyManuel2, 
      contentType: 'application/json', // Set Content-type: application/json
      dataType: 'json',
      async: false,

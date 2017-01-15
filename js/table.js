@@ -13,12 +13,13 @@ var costo = Cookies.get("costos");
     var tr;
     for (var i = 0; i <  data.length; i++) {
         tr = $('<tr/>');
+        var maxSegment = data[i].trips.tripOption[0].slice[0].segment.length;
 //        if(i===0){
             tr.append("<td><div style='height: 50px; overflow:auto;'>" + data[i].trips.data.carrier[0].name + "</div></td>");
             tr.append("<td><div style='height: 50px; overflow:auto;'>" + data[i].trips.tripOption[0].slice[0].segment[0].flight.number + "</div></td>");
             tr.append("<td><div style='height: 50px; overflow:auto;'>" + data[i].trips.tripOption[0].slice[0].segment[0].leg[0].origin + "</div></td>");
             tr.append("<td><div style='height: 50px; overflow:auto;'>" + data[i].trips.tripOption[0].slice[0].segment[0].leg[0].departureTime + "</div></td>");
-            tr.append("<td><div style='height: 50px; overflow:auto;'>" + data[i].trips.tripOption[0].slice[0].segment[0].leg[0].destination + "</div></td>");
+            tr.append("<td><div style='height: 50px; overflow:auto;'>" + data[i].trips.tripOption[0].slice[0].segment[maxSegment-1].leg[0].destination + "</div></td>");
             tr.append("<td><div style='height: 50px; overflow:auto;'>" + data[i].trips.tripOption[0].slice[0].segment[0].leg[0].arrivalTime + "</div></td>");
             tr.append("<td><div style='height: 50px; overflow:auto;'>" + data[i].trips.tripOption[0].saleTotal +"</div></td>");
             $('table').append(tr);
