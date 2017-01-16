@@ -114,7 +114,8 @@ while (ciudades.length > 0) {
 console.log(ruta);
 //Guardamos la ruta en el session storage
 sessionStorage.setItem('rutas', JSON.stringify(ruta));
-Cookies.set("costos",costoTotal);
+sessionStorage.setItem('costos', costoTotal);
+//Cookies.set("costos",costoTotal);
 location.href='select.html';
 }
 function request(ciudadDesde, ciudadHasta, fecha) {
@@ -143,12 +144,12 @@ function request(ciudadDesde, ciudadHasta, fecha) {
       }
     };
     var keyManuel = "AIzaSyDxZmWNE01gdMq8T_h9yirnb0IjJ4bF0E0";
-    var keyMiguel = "AIzaSyBrDLPj6wKGupgOJL4Rnu4VSUwFLSgemrM";
+    var keyMiguel = "AIzaSyDSrjwLmi9HMCkOLFyCiyT9Yx-m1WUbz2Q";
     var keyManuel2="AIzaSyClJyDmz-rjAhmp88AoqR5T6lb4rJepsSk";
     $.ajax({
      type: "POST",
      //Set up your request URL and API Key.
-     url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=" + keyManuel, 
+     url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=" +keyMiguel, 
      contentType: 'application/json', // Set Content-type: application/json
      dataType: 'json',
      async: false,

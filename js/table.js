@@ -8,7 +8,8 @@
 
 $(document).ready(function () {
 var data = JSON.parse(sessionStorage.getItem('rutas'));
-var costo = Cookies.get("costos");
+var costo = sessionStorage.getItem('costos')
+console.log(costo);
     console.log(data);
     var tr;
     for (var i = 0; i <  data.length; i++) {
