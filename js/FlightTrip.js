@@ -25,7 +25,7 @@ ciudadActual = ciudadPartida;
 fechaActual = fechaPartida;
 //Obtenemos los datos del index.
 var i=1;
-    while(i<4)
+    while(i<=4)
     { 
         var check=document.getElementById("arrivalCity"+i).value;
         if(check.length > 0)
@@ -148,7 +148,7 @@ function request(ciudadDesde, ciudadHasta, fecha) {
     $.ajax({
      type: "POST",
      //Set up your request URL and API Key.
-     url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=" + keyManuel2, 
+     url: "https://www.googleapis.com/qpxExpress/v1/trips/search?key=" + keyManuel, 
      contentType: 'application/json', // Set Content-type: application/json
      dataType: 'json',
      async: false,
